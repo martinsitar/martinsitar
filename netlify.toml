@@ -1,3 +1,8 @@
 [build]
-publish = "public"
-command = "hugo --theme=dimension --buildDrafts --gc --minify"
+publish = "public"  // default hugo build folder
+command = "hugo --gc --minify" // hugo build command
+
+[context.production.environment]
+HUGO_VERSION = "0.82.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
