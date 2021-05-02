@@ -1,0 +1,45 @@
+.content a {
+    color: #007bff;
+  }
+  .content a:hover {
+    text-decoration: underline;
+  }
+  .content p {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1.1em;
+    letter-spacing: 0.03em;
+  }
+  .content h1 {
+    font-size: 2.25rem;
+  }
+  .content h2 {
+    font-size: 1.4em;
+    padding-top: 0.55em;
+    padding-bottom: 0.5em;
+    padding-left: 0em;
+    border-left: none;
+    font-weight: 700;
+  }
+  .content h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid #222;
+    font-weight: 700;
+  }
+  .content h4 {
+    font-size: 1.25rem;
+  }
+  .content h5 {
+    font-size: 1.125rem;
+  }
+  .content h6 {
+    font-size: 1rem;
+  }
+  .content b {
+    font-style: bold;
+  }
+  .content blockquote {
+    background-color: #edf2f7;
+    padding: 0.5rem 1rem;
+  }
