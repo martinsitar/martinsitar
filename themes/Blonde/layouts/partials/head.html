@@ -30,5 +30,6 @@
         onload="this.media='all'">
     {{ partial "seo/print.html" . }}
     {{ block "header_css" . }}{{ end }}
-    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css" media="print"
+    onload="this.media='all'">
 </head>

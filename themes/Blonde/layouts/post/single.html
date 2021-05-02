@@ -6,29 +6,18 @@
     
 </div>
 
-<div class="w-auto md:max-w-screen-md mx-auto mt-20" id="content">
+<div class="content prose w-auto md:max-w-screen-md mx-auto mt-20" id="content">
     <div class="mx-5">
         <div class="">
             <div class="">
                 <h1 class="title text-4xl">{{.Title}}</h1>
                 <aside id="meta">
-                    <div>
+                    <div class="date">
                         <section>
-                            <h4 id="date"><span class="icon-access_time mr-1"></span>{{ .Date.Format "2006/01/02" }} </h4>
+                            <h4 id="date">{{ dateFormat "Monday, Jan 2, 2006" "2015-01-21" }}</h4>
                         </section>
-                        {{ with .Params.tags }}
-                        <div id="tags">
-                            <span class="icon-local_offer mr-1"></span>
-                            {{ range . }}
-                            <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> |
-                            {{ end }}
-                        </div>
-                        {{ end }}
                     </div>
                 </aside>
-                {{ if .Params.image }}
-                <img class="my-4" src="{{ .Params.image | absURL }}">
-                {{ end }}
                 <div class="content">{{.Content}}</div>
                 <hr class="py-2">
                 <aside id="meta">

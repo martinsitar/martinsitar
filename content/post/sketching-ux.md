@@ -23,7 +23,7 @@ Fav. pencils: [Koh-I-Noor Mechanical Pencils](https://amzn.to/3smNax1)
 Solid feel in hand, good weight, thick lead that doesn’t break easily. 
 
 
-### iPad Air + Apple Pencil
+## iPad Air + Apple Pencil
 A couple of weeks ago I received an iPad Air and Apple Pencil from work. I’ve tried sketching on the iPad Pro (original pencil) , and while it was fun it just never stuck. This time around I decided to give it an honest shot, deliberately reaching for the iPad each time I had an idea to sketch.  The other benefit is that since we’re all working remotely, digital sketches are much easier to share. 
 
 I tried out 3 different apps for drawing. [Paper](https://paper.bywetransfer.com) (WeTransfer), [Bamboo Paper](https://www.wacom.com/en-ca/products/apps-services/bamboo-paper) (Wacom), and [Procreate](https://procreate.art). Paper and Bamboo Paper are great little apps, but I didn’t find the options compelling enough to convince me to pay for a subscription. As far as sketching is concerned, these will do the trick, even on the free version. In terms of flexibility, features and value, Procreate is the best option in my opinion. 
