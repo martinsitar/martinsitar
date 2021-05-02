@@ -9,7 +9,7 @@ math: true
 featured: true
 ---
 
-Sketching concepts and ideas is a big part of my design process. It’s how I begin to visualize ways to solve a problem and quickly iterate through ideas. Sketching is imperfect and prevents you from getting caught up in too many details. I find there’s something special and freeing about exploring ideas in this way. test
+Sketching concepts and ideas is a big part of my design process. It’s how I begin to visualize ways to solve a problem and quickly iterate through ideas. Sketching is imperfect and prevents you from getting caught up in too many details. I find there’s something special and freeing about exploring ideas in this way.
 
 ## Paper + Pencil
 You don’t need fancy tools. My go-to’s are typically whatever pen or pencil I have on hand. I do have a few favourites which I’ll share below, but really almost anything can work. I’ve tried a lot of different sketchbooks, some good, but I always found the covers, spines, or rings got in my way. My ultimate favourite are just plain 8.5x11 (A4) sheets of paper. They’re easy to re-order based on which part of a design you’re working on, and they’re easy to store and organize in most folders and folios. I have stacks of these with iterations of previous projects I’ve worked on.  One thing that has helped me stay organized over the years is to always properly label, date and sign each sketch. 
