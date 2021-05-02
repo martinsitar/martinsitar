@@ -1,8 +1,3 @@
-/* 
- This CSS file is used to override the existing styles of the theme.
- You can change the article headings, fonts, colors, etc.
-*/
-
 .content a {
     color: #007bff;
   }
@@ -16,16 +11,18 @@
     letter-spacing: 0.03em;
   }
   .content h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
-  .prose h1 {
-    font-size: 3rem;
+
+  .title h1 {
+    font-size: 0.25rem;
   }
+  
   .content h2 {
-    font-size: 1.8em;
-    padding-top: 0.35em;
-    padding-bottom: 0em;
-    padding-left: 0;
+    font-size: 1.4em;
+    padding-top: 0.55em;
+    padding-bottom: 0.5em;
+    padding-left: 0em;
     border-left: none;
     font-weight: 700;
   }
