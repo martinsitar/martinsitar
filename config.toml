@@ -1,6 +1,6 @@
 baseURL = "https://martinsitar.netlify.app"
-title = "Blonde"
-author = "wamo"
+title = "Martin Sitar"
+author = "Martin Sitar"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true

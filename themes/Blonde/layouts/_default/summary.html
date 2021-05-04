@@ -16,16 +16,17 @@
 </div>
 -->
 
-<div class="rounded-lg bg-cover bg-center my-8 relative h-450" style="background-image: url('{{ "/img/default.jpg" | relURL }}')">
+<div class="rounded-lg bg-cover bg-center mb-16 relative h-450 homecard hover:shadow-xl" style="background-image: url('{{ "/img/default.jpg" | relURL }}')">
     <!--{{ if .Params.image }}
     <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full lg:{{ .Site.Params.post.thumbnail_width }} lg:{{ .Site.Params.post.thumbnail_height }}" src="{{ .Params.image | relURL }}" />
     {{ else }}
     <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full" src="{{ "/img/default.jpg" | relURL }}">
     {{ end }}-->
-    <div class="prose bottom-0 left-0 p-7 absolute">
-            <p class="">
-                <time><span class=""></span>{{.Date.Format "2006/01/02"}}</time>
+    <div class="prose bottom-0 left-0 p-7 absolute homecard-copy">
+        <h1>{{.Title}}</h1>
+            <p>
+                <time>{{ dateFormat "Jan 2, 2006" "2015-01-21" }}</time>
             </p>
-            <div class="">{{.Title}}</div>
+        
     </div>
 </div>

@@ -19,6 +19,35 @@
   font-size: 1.1em;
   letter-spacing: 0.03em;
 }
+
+.homecard {
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.homecard::after {
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.homecard:hover {
+  -webkit-transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
+}
+
+.homecard-copy h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0em;
+  margin-top: 1rem;
+}
+
+.homecard-copy p {
+  color: #ffffff;
+  margin-bottom: 0em;
+  margin-top: 0rem;
+}
+
 .title h1 {
   font-size: 3rem;
   margin-bottom: 0em;
