@@ -61,10 +61,10 @@ tagsLimit = 20
     url = "/about/"
     weight = 2
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
+[[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
     weight = 3
 
 [taxonomies]

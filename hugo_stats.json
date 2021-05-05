@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "!--",
+      "!--{{",
       "!doctype",
       "a",
       "abbr",
@@ -58,6 +59,8 @@
       "ul"
     ],
     "classes": [
+      ".Site.Params.post.thumbnail_height",
+      ".Site.Params.post.thumbnail_width",
       "__h_video",
       "absolute",
       "align-middle",
@@ -82,6 +85,8 @@
       "content",
       "content-center",
       "cursor-pointer",
+      "dark:bg-gray-800",
+      "dark:text-white",
       "date",
       "duration-100",
       "flex",
@@ -148,6 +153,7 @@
       "lg:py-16",
       "lg:text-2xl",
       "lg:text-left",
+      "lg:{{",
       "m-3",
       "max-w-screen-md",
       "mb-16",
@@ -160,6 +166,8 @@
       "md:max-w-screen-md",
       "md:mt-5",
       "md:mx-auto",
+      "md:px-0",
+      "md:py-6",
       "md:text-6xl",
       "md:text-xl",
       "md:visible",
@@ -205,6 +213,7 @@
       "py-3",
       "py-44",
       "py-5",
+      "py-6",
       "py-60",
       "relative",
       "rounded-lg",
@@ -245,7 +254,8 @@
       "w-auto",
       "w-full",
       "width-full",
-      "xl:inline"
+      "xl:inline",
+      "}}"
     ],
     "ids": [
       "blockquote-with-attribution",
@@ -286,6 +296,7 @@
       "paper--pencil",
       "paragraph",
       "tables",
+      "thumb",
       "twitter-simple-shortcode",
       "unordered-list",
       "vagus-elidunt",

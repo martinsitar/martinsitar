@@ -7,6 +7,7 @@ module.exports = {
       center: true,
     },
   },
+  /* darkMode: 'media', */
   theme: {
     height: {
      '450': '450px',

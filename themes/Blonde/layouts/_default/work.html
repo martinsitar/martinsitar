@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 
 {{ define "main" }}
+
 <div class="w-full bg-gray-50 py-44 dark:bg-gray-800">
   <div class="max-w-screen-md mx-5 md:mx-auto text-center lg:text-left">
         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -57,14 +58,6 @@
           </div>
         </div>
       </div>
-
-    <div class="">
-        {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
-        <a href="{{.RelPermalink}}">
-          {{ .Render "summary" }}
-        </a>
-        {{ end }}
-    </div>
   </div>
 </div>
 {{ end }}
