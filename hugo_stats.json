@@ -2,7 +2,6 @@
   "htmlElements": {
     "tags": [
       "!--",
-      "!--{{",
       "!doctype",
       "a",
       "abbr",
@@ -59,8 +58,6 @@
       "ul"
     ],
     "classes": [
-      ".Site.Params.post.thumbnail_height",
-      ".Site.Params.post.thumbnail_width",
       "__h_video",
       "absolute",
       "align-middle",
@@ -153,9 +150,10 @@
       "lg:py-16",
       "lg:text-2xl",
       "lg:text-left",
-      "lg:{{",
       "m-3",
       "max-w-screen-md",
+      "mb-0.5",
+      "mb-1",
       "mb-16",
       "mb-2",
       "mb-3",
@@ -180,6 +178,8 @@
       "mr-4",
       "mr-6",
       "mr-auto",
+      "mt-1",
+      "mt-2",
       "mt-20",
       "mt-3",
       "mt-4",
@@ -203,7 +203,9 @@
       "play",
       "previous",
       "prose",
+      "pt-2",
       "pt-4",
+      "px-2",
       "px-3",
       "px-4",
       "px-5",
@@ -213,7 +215,6 @@
       "py-3",
       "py-44",
       "py-5",
-      "py-6",
       "py-60",
       "relative",
       "rounded-lg",
@@ -251,11 +252,12 @@
       "tracking-tight",
       "transition-colors",
       "twitter-tweet",
+      "uppercase",
       "w-auto",
       "w-full",
       "width-full",
-      "xl:inline",
-      "}}"
+      "workcard-copy",
+      "xl:inline"
     ],
     "ids": [
       "blockquote-with-attribution",
@@ -296,7 +298,6 @@
       "paper--pencil",
       "paragraph",
       "tables",
-      "thumb",
       "twitter-simple-shortcode",
       "unordered-list",
       "vagus-elidunt",

@@ -107,7 +107,7 @@ Hugo makes use of a variety of open source projects including:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://martinsitar.netlify.app/work/</guid>
-      <description> HI, I&#39;M MARTIN  I&#39;m a product designer currently working on data insights at Shopify. This site is where I share my personal experiences and thoughts on design. I also teach and try to give back by mentoring aspiring designers.   {{ range (where (where .Site.RegularPages &#34;Type&#34; &#34;in&#34; site.Params.mainSections) &#34;.Params.featured&#34; &#34;=&#34; true) }} {{ else }} {{ end }}-- {{.Title}}  {{ dateFormat &#34;Jan 2, 2006&#34; &#34;2015-01-21&#34; }}    {{ end }} </description>
+      <description></description>
     </item>
     
   </channel>
