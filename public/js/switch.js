@@ -1,4 +1,4 @@
-var savedTheme = localStorage.getItem("dark-mode-storage") || "light",
+/*var savedTheme = localStorage.getItem("dark-mode-storage") || "light",
   toggle1 = document.getElementById("dark-mode-toggle-1"),
   toggle2 = document.getElementById("dark-mode-toggle-2"),
   icon_toggle1 = document.getElementById("dark-mode-toggle-icon1"),
@@ -43,3 +43,4 @@ userPrefersDark && setTheme("dark"),
       : "icon-sun inline-flex align-middle leading-normal text-lg ml-2" ===
           icon_toggle2.className && setTheme("light");
   });
+  /*
