@@ -717,6 +717,19 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+h1 {
+  font-family: Oswald;
+}
+
+h2 {
+  font-family: Oswald;
+}
+
+p {
+  font-family: Overpass;
+  font-weight: 400;
+}
+
 /* Tailwind component classes registered by plugins*/
 
 .container {
@@ -12730,6 +12743,14 @@ select {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-overpass {
+  font-family: overpass, sans-serif;
+}
+
+.font-oswald {
+  font-family: oswald, sans-serif;
 }
 
 .font-thin {
@@ -45124,6 +45145,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-overpass {
+    font-family: overpass, sans-serif;
+  }
+
+  .sm\:font-oswald {
+    font-family: oswald, sans-serif;
+  }
+
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -77344,6 +77373,14 @@ select {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-overpass {
+    font-family: overpass, sans-serif;
+  }
+
+  .md\:font-oswald {
+    font-family: oswald, sans-serif;
   }
 
   .md\:font-thin {
@@ -109568,6 +109605,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-overpass {
+    font-family: overpass, sans-serif;
+  }
+
+  .lg\:font-oswald {
+    font-family: oswald, sans-serif;
+  }
+
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -141790,6 +141835,14 @@ select {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-overpass {
+    font-family: overpass, sans-serif;
+  }
+
+  .xl\:font-oswald {
+    font-family: oswald, sans-serif;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -174010,6 +174063,14 @@ select {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-overpass {
+    font-family: overpass, sans-serif;
+  }
+
+  .\32xl\:font-oswald {
+    font-family: oswald, sans-serif;
   }
 
   .\32xl\:font-thin {

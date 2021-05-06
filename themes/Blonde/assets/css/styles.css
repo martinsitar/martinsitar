@@ -6,3 +6,16 @@
 @import "assets/css/site";
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";
+
+@layer base {
+    h1 {
+        font-family: Oswald;
+    }
+    h2 {
+        font-family: Oswald;
+    }
+    p {
+        font-family: Overpass;
+        font-weight: 400;
+    }
+  }

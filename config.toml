@@ -55,17 +55,11 @@ tagsLimit = 20
     url = "/"
     weight = 1
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
-
 [[menu.main]]
     identifier = "work"
     name = "Work"
     url = "/work/"
-    weight = 3
+    weight = 2
 
 [taxonomies]
 category = "categories"

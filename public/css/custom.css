@@ -50,17 +50,20 @@
 
 .workcard-copy a {
 margin-left: 0;
-padding-right: 8px;
-padding-left: 8px;
 border-radius: 4px;
 background-color: #4770ff;
 -webkit-transition: background-color .2s;
 transition: background-color .2s;
 color: #fff;
+text-decoration: none;
 }
 
 .workcard-copy a:hover {
   background-color: #243039;
+}
+
+.workcard-copy h2 {
+  margin-bottom: 0.1rem;
 }
 
 .title h1 {
