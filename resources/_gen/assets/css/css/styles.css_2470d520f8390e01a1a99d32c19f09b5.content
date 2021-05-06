@@ -728,8 +728,9 @@ h2 {
 }
 
 p {
-  font-family: Open Sans;
+  font-family: Source Sans Pro;
   font-weight: 400;
+  letter-spacing: 0.025em;
 }
 
 /* Tailwind component classes registered by plugins*/
@@ -12751,8 +12752,8 @@ p {
   font-family: "Open+Sans", sans-serif;
 }
 
-.font-oswald {
-  font-family: oswald, sans-serif;
+.font-sourcesanspro {
+  font-family: "Source+Sans+Pro", sans-serif;
 }
 
 .font-thin {
@@ -45151,8 +45152,8 @@ p {
     font-family: "Open+Sans", sans-serif;
   }
 
-  .sm\:font-oswald {
-    font-family: oswald, sans-serif;
+  .sm\:font-sourcesanspro {
+    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .sm\:font-thin {
@@ -77381,8 +77382,8 @@ p {
     font-family: "Open+Sans", sans-serif;
   }
 
-  .md\:font-oswald {
-    font-family: oswald, sans-serif;
+  .md\:font-sourcesanspro {
+    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .md\:font-thin {
@@ -109611,8 +109612,8 @@ p {
     font-family: "Open+Sans", sans-serif;
   }
 
-  .lg\:font-oswald {
-    font-family: oswald, sans-serif;
+  .lg\:font-sourcesanspro {
+    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .lg\:font-thin {
@@ -141841,8 +141842,8 @@ p {
     font-family: "Open+Sans", sans-serif;
   }
 
-  .xl\:font-oswald {
-    font-family: oswald, sans-serif;
+  .xl\:font-sourcesanspro {
+    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .xl\:font-thin {
@@ -174071,8 +174072,8 @@ p {
     font-family: "Open+Sans", sans-serif;
   }
 
-  .\32xl\:font-oswald {
-    font-family: oswald, sans-serif;
+  .\32xl\:font-sourcesanspro {
+    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .\32xl\:font-thin {

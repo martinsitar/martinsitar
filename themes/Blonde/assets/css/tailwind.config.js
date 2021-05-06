@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'opensans': ['"Open+Sans"', 'sans-serif'],
-        'oswald': ['oswald', 'sans-serif']
+        'sourcesanspro': ['"Source+Sans+Pro"', 'sans-serif']
       },
     },
   },
