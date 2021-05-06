@@ -9,13 +9,15 @@
 
 @layer base {
     h1 {
-        font-family: Oswald;
+        font-family: Open Sans;
+        letter-spacing: -0.02em;
     }
     h2 {
-        font-family: Oswald;
+        font-family: Open Sans;
+        font-size: 1.6rem;
     }
     p {
-        font-family: Overpass;
+        font-family: Open Sans;
         font-weight: 400;
     }
   }

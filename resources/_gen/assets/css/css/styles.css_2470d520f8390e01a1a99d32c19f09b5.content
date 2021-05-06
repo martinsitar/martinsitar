@@ -718,15 +718,17 @@ select {
 }
 
 h1 {
-  font-family: Oswald;
+  font-family: Open Sans;
+  letter-spacing: -0.02em;
 }
 
 h2 {
-  font-family: Oswald;
+  font-family: Open Sans;
+  font-size: 1.6rem;
 }
 
 p {
-  font-family: Overpass;
+  font-family: Open Sans;
   font-weight: 400;
 }
 
@@ -12745,8 +12747,8 @@ p {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.font-overpass {
-  font-family: overpass, sans-serif;
+.font-opensans {
+  font-family: "Open+Sans", sans-serif;
 }
 
 .font-oswald {
@@ -45145,8 +45147,8 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .sm\:font-overpass {
-    font-family: overpass, sans-serif;
+  .sm\:font-opensans {
+    font-family: "Open+Sans", sans-serif;
   }
 
   .sm\:font-oswald {
@@ -77375,8 +77377,8 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .md\:font-overpass {
-    font-family: overpass, sans-serif;
+  .md\:font-opensans {
+    font-family: "Open+Sans", sans-serif;
   }
 
   .md\:font-oswald {
@@ -109605,8 +109607,8 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-overpass {
-    font-family: overpass, sans-serif;
+  .lg\:font-opensans {
+    font-family: "Open+Sans", sans-serif;
   }
 
   .lg\:font-oswald {
@@ -141835,8 +141837,8 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .xl\:font-overpass {
-    font-family: overpass, sans-serif;
+  .xl\:font-opensans {
+    font-family: "Open+Sans", sans-serif;
   }
 
   .xl\:font-oswald {
@@ -174065,8 +174067,8 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .\32xl\:font-overpass {
-    font-family: overpass, sans-serif;
+  .\32xl\:font-opensans {
+    font-family: "Open+Sans", sans-serif;
   }
 
   .\32xl\:font-oswald {
