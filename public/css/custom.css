@@ -140,7 +140,3 @@ text-decoration: none;
 .active {
   color: #4770ff;
 }
-
-html.wf-loading * {
-  opacity: 0;
-}
