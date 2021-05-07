@@ -21,4 +21,21 @@
         font-weight: 400;
         letter-spacing: 0.025em;
     }
+
+    .workcard-copy h2 {
+        font-family: Oswald;
+        font-weight: 500;
+        margin-bottom: 0.1rem;
+      }
+
+    .feature h1 {
+        font-family: Oswald;
+        font-weight: 500;
+    }
+
+    .navmenu a {
+        font-family: Source Sans Pro;
+        font-weight: 400;
+    }
+
   }

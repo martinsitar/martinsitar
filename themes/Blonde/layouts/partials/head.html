@@ -16,17 +16,6 @@
     <link rel="manifest" href="{{ "/favicon/site.webmanifest" | relURL }}" />
     <link rel="mask-icon" href="{{ "/favicon/safari-pinned-tab.svg" | relURL }}" color="#5bbad5" />
     <link rel="shortcut icon" href="{{ "/favicon/favicon.ico" | relURL }}" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Oswald:wght@500&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
     {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
     {{ if .Site.IsServer }}
@@ -35,11 +24,10 @@
         {{ $styles := $styles| minify | fingerprint | resources.PostProcess }}
         <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
     {{ end }}
-    <link id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.min.css" | relURL }}" async disabled>
     <link href="{{ "/css/blonde.css" | relURL }}" rel="stylesheet" type="text/css" media="print"
         onload="this.media='all'">
-    {{ partial "seo/print.html" . }}
-    {{ block "header_css" . }}{{ end }}
     <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css" media="print"
     onload="this.media='all'">
+    {{ partial "seo/print.html" . }}
+    {{ block "header_css" . }}{{ end }}
 </head>

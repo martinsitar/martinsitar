@@ -72,10 +72,6 @@ text-decoration: none;
   background-color: #243039;
 }
 
-.workcard-copy h2 {
-  margin-bottom: 0.1rem;
-}
-
 .title h1 {
   font-size: 3rem;
   margin-bottom: 0em;
@@ -121,11 +117,6 @@ text-decoration: none;
 .content blockquote {
   background-color: #edf2f7;
   padding: 0.5rem 1rem;
-}
-
-.navmenu a {
-  font-family: Source Sans Pro;
-  font-weight: 400;
 }
 
 .navmenu a:hover {
