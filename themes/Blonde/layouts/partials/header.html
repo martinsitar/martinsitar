@@ -18,9 +18,12 @@
                 <div class="text-sm lg:flex-grow">
                 </div>
                 <div class="navmenu">
+                    {{ $current := . }}
                     {{ range .Site.Menus.main }}
+                    {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+                    {{ $active = or $active (eq .Name $current.Title) }}
                     <a href="{{ .URL }}"
-                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center">
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
                         {{ .Name }}
                     </a>
                     {{ end }}
@@ -29,12 +32,6 @@
         </nav>
     </div>
 </div>
-
-<style>
-    .active {
-        display: block;
-    }
-</style>
 <script>
     let hamburger = document.getElementById('hamburgerbtn');
 

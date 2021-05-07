@@ -60,6 +60,7 @@
     "classes": [
       "__h_video",
       "absolute",
+      "active",
       "bg-center",
       "bg-cover",
       "bg-gray-100",
@@ -230,7 +231,6 @@
       "text-base",
       "text-blue-500",
       "text-center",
-      "text-centeractive",
       "text-gray-300",
       "text-gray-400",
       "text-gray-500",
