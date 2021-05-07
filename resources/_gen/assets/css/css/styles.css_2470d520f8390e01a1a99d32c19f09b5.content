@@ -12748,14 +12748,6 @@ p {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.font-opensans {
-  font-family: "Open+Sans", sans-serif;
-}
-
-.font-sourcesanspro {
-  font-family: "Source+Sans+Pro", sans-serif;
-}
-
 .font-thin {
   font-weight: 100;
 }
@@ -45148,14 +45140,6 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .sm\:font-opensans {
-    font-family: "Open+Sans", sans-serif;
-  }
-
-  .sm\:font-sourcesanspro {
-    font-family: "Source+Sans+Pro", sans-serif;
-  }
-
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -77376,14 +77360,6 @@ p {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .md\:font-opensans {
-    font-family: "Open+Sans", sans-serif;
-  }
-
-  .md\:font-sourcesanspro {
-    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .md\:font-thin {
@@ -109608,14 +109584,6 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-opensans {
-    font-family: "Open+Sans", sans-serif;
-  }
-
-  .lg\:font-sourcesanspro {
-    font-family: "Source+Sans+Pro", sans-serif;
-  }
-
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -141838,14 +141806,6 @@ p {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .xl\:font-opensans {
-    font-family: "Open+Sans", sans-serif;
-  }
-
-  .xl\:font-sourcesanspro {
-    font-family: "Source+Sans+Pro", sans-serif;
-  }
-
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -174066,14 +174026,6 @@ p {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .\32xl\:font-opensans {
-    font-family: "Open+Sans", sans-serif;
-  }
-
-  .\32xl\:font-sourcesanspro {
-    font-family: "Source+Sans+Pro", sans-serif;
   }
 
   .\32xl\:font-thin {

@@ -48,6 +48,11 @@
   margin-top: 0rem;
 }
 
+.feature h1 {
+  font-family: Oswald;
+  font-weight: 500;
+}
+
 .workcard-copy a {
 margin-left: 0;
 border-radius: 4px;
@@ -56,6 +61,11 @@ background-color: #4770ff;
 transition: background-color .2s;
 color: #fff;
 text-decoration: none;
+}
+
+.workcard-copy h2 {
+  font-family: Oswald;
+  font-weight: 500;
 }
 
 .workcard-copy a:hover {
@@ -113,10 +123,20 @@ text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
+.navmenu a {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+}
+
 .navmenu a:hover {
   -webkit-transform: translate(0,-2px);
   -ms-transform: translate(0,-2px);
   transform: translate(0,-2px);
   -webkit-transition: opacity .2s,-webkit-transform .2s;
   transition: opacity .2s,transform .2s,-webkit-transform .2s;
+  color: #4770ff;
+}
+
+.active {
+  color: #4770ff;
 }
