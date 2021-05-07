@@ -43,4 +43,4 @@ userPrefersDark && setTheme("dark"),
       : "icon-sun inline-flex align-middle leading-normal text-lg ml-2" ===
           icon_toggle2.className && setTheme("light");
   });
-  /*
+*/
