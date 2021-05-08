@@ -1,5 +1,5 @@
 ---
-author: Hugo Authors
+author: Martin Sitar
 title: My favourite tools for sketching.
 date: 2020-05-01
 image: "img/sketching-ux.png"

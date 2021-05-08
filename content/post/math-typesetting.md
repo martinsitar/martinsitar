@@ -6,6 +6,7 @@ image: "img/sketching-ux.png"
 archives: ["2019/03"]
 description: A brief guide to setup KaTeX
 math: true
+draft: true
 featured: false
 ---
 

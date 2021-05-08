@@ -61,6 +61,12 @@ tagsLimit = 20
     url = "/work/"
     weight = 2
 
+[[menu.main]]
+    identifier = "mentorship"
+    name = "Mentorship"
+    url = "https://superpeer.com/martinsitar"
+    weight = 3
+
 [taxonomies]
 category = "categories"
 tag = "tags"
