@@ -14,7 +14,7 @@ Sketching concepts and ideas is a big part of my design process. It’s how I be
 ## Paper + Pencil
 You don’t need fancy tools. My go-to’s are typically whatever pen or pencil I have on hand. I do have a few favourites which I’ll share below, but really almost anything can work. I’ve tried a lot of different sketchbooks, some good, but I always found the covers, spines, or rings got in my way. My ultimate favourite are just plain 8.5x11 (A4) sheets of paper. They’re easy to re-order based on which part of a design you’re working on, and they’re easy to store and organize in most folders and folios. I have stacks of these with iterations of previous projects I’ve worked on.  One thing that has helped me stay organized over the years is to always properly label, date and sign each sketch. 
 
-[image:51CAC01E-6564-41F3-A29C-EC43311E44FC-9689-0000C8A886AC9C06/IMG-4940.JPG]
+![tools](/img/sketching/607e28af3fe3506c9bc18227_IMG-4940.JPG)
 
 Fav. pens: [Muji 0.5mm Gel Ink Ballpoint Pens](https://amzn.to/3aalgOz)
 Super smooth to write with, consistent ink output, never bleed. 
@@ -35,7 +35,7 @@ Brush: Inking > Technical Pen
 Brush size: 3%
 Opacity: 100%
 
-[image:20DA3B03-2B31-41F0-B461-E4C4E3088B94-9689-0000C8AB7DD0F31D/IMG-0005.PNG]
+![procreate](/img/sketching/607e2937c0c9f42a0fded003_IMG-0005.PNG)
 
 I’d love to hear if you have a favourite set-up, and what it is.
 
