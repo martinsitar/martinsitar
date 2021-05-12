@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020/06 on Martin Sitar</title>
+    <link>https://martinsitar.netlify.app/archives/2020/06/</link>
+    <description>Recent content in 2020/06 on Martin Sitar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://martinsitar.netlify.app/archives/2020/06/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Highlighted</title>
+      <link>https://martinsitar.netlify.app/post/highlighted/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinsitar.netlify.app/post/highlighted/</guid>
+      <description>If you&amp;rsquo;ve ever read a book that&amp;rsquo;s full of things want to remember you probably marked up pages in the book itself or took notes elsewhere. Highlighted is a handy little app that lets you easily capture all the important snippets of text you&amp;rsquo;d ever want, and makes them a breeze to find later on. Here are some of my favourite details.
+Modal views Modal views present content in a separate mode from the user&amp;rsquo;s current context (more on that here).</description>
+    </item>
+    
+  </channel>
+</rss>

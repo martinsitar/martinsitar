@@ -44,15 +44,6 @@ Paper + Pencil You don’t need fancy tools. My go-to’s are typically whatever
     </item>
     
     <item>
-      <title>Math Typesetting</title>
-      <link>https://martinsitar.netlify.app/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinsitar.netlify.app/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Emoji Support</title>
       <link>https://martinsitar.netlify.app/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>

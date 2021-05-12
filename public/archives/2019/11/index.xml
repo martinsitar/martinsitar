@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019/11 on Martin Sitar</title>
+    <link>https://martinsitar.netlify.app/archives/2019/11/</link>
+    <description>Recent content in 2019/11 on Martin Sitar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://martinsitar.netlify.app/archives/2019/11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disney Plus</title>
+      <link>https://martinsitar.netlify.app/post/disneyplus/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinsitar.netlify.app/post/disneyplus/</guid>
+      <description>Disney Plus was a huge success in terms of sign-ups when it launched on Nov 12. In just 24 hours it amassed over 10 million subscribers, and over 3.2 million app downloads. Having now been a month since the launch, they’ve ironed out initial glitches and started adding features, like continue watching. Overall it feels simple and approachable. One area that still falls short is the navigation and way-finding experience. Inconsistency in patterns and some navigation oversight add friction to the experience, lowering quality, and would benefit from some additional consideration.</description>
+    </item>
+    
+  </channel>
+</rss>

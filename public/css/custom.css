@@ -131,3 +131,7 @@ text-decoration: none;
 .active {
   color: #4770ff;
 }
+
+.content img {
+  margin: auto;
+}

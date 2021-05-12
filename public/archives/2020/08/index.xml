@@ -7,12 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://martinsitar.netlify.app/archives/2020/08/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Image Test</title>
-      <link>https://martinsitar.netlify.app/post/image-test/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Overlap</title>
+      <link>https://martinsitar.netlify.app/post/overlap/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://martinsitar.netlify.app/post/image-test/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla dui eu mi iaculis, sit amet congue lacus porta. Ut nec porta ex. Morbi nec massa sodales, finibus urna et, condimentum odio. Nulla ornare est ac egestas varius. Duis faucibus sapien non risus pretium vestibulum. Ut rutrum lorem ut euismod maximus. Vestibulum metus urna, ultrices nec sapien sit amet, malesuada tincidunt quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</description>
+      <guid>https://martinsitar.netlify.app/post/overlap/</guid>
+      <description>Overlap lets you compare time zones across multiple locations and quickly find a time that&amp;rsquo;s reasonable in everyone&amp;rsquo;s workday. For me this comes in handy when I&amp;rsquo;m working with colleagues in other time zones, and especially when setting up interviews with users on the other side of the world.
+Timezone scrolling Once you add the locations you need, scrolling right or left moves forward or backward in time across all of them simultaneously.</description>
     </item>
     
   </channel>

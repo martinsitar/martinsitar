@@ -133,6 +133,13 @@ text-decoration: none;
 }
 
 .content img {
-  max-height: 500px;
+  margin: auto;
+}
+
+.img-tall img{
+  max-height:600px
+}
+
+.content iframe {
   margin: auto;
 }

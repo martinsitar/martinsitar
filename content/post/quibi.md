@@ -26,13 +26,13 @@ The in-video controls are standard and do what you'd expect, except for the shar
 
 In vertical mode the video scrubber is anchored to the right of the frame by default, with the option to flip between left and right handed mode. Typically being at the bottom, this originally struck me as odd but I do think it has advantages and I think I actually prefer it. Having the bar along either side of the screen makes it easier to interact with compared to scrunching your thumb near the bottom. The bar can also be longer giving you finer control over finding a specific frame.
 
-![vertical-scrubber](/img/quibi/604023b3af0303e3a8d1358e_scrubber.png)
+{{< figure src="/img/quibi/604023b3af0303e3a8d1358e_scrubber.png" class="img-tall" alt="vertical scrubber" >}}
 
 
 ## Home cards
 Cards are the primary UI element for video content. The Recommended for you default landing page contains all of the featured/recommended items. There isn't a ton of content on Quibi yet, and I think the designers made a good design decision in how the user makes their way through the list. The interaction here is that you flick your way through the cards one by one. This in a way forces you to pause and consider each item for at least a moment, and makes it feel like there is a lot of stuff to flip through. If you do pause on a card, the background seamlessly transitions to play a snippet of the content.
 
-![home](/img/quibi/604023b2038a5afdc6c76e0c_quibi-cards.gif)
+{{< figure src="/img/quibi/604023b2038a5afdc6c76e0c_quibi-cards.gif" class="img-tall" alt="home" >}}
 
 In contrast, flipping through many cards at once requires a huge swipe gesture from the bottom with a lot of momentum (it feels a little awkward), even then it only skips a few cards in between. In Instagram for example, which is an endless stream of content this gesture would send you flying through posts.
 
@@ -41,13 +41,14 @@ In case you do want to move through content quickly there is a scrollbar you can
 ## Show logos
 Each show has a unique logo that is a prominent feature on its card and detail page. As you scroll the logo shrinks proportionately and then anchors itself in the header. This works surprisingly nicely with different formats and sizes of logos.
 
-![logos](/img/quibi/604023b21acdda6721074266_quibi-logos.gif)
+{{< figure src="/img/quibi/604023b21acdda6721074266_quibi-logos.gif" class="img-tall" alt="logo" >}}
+
 
 ## Additional actions
 One interaction I really like is that you can exit a video with a simple downward swipe. This is a lot quicker and feels more natural than reaching for the x to close. This pattern seems to be used on all pop-overs and cards with an x icon.
 
 A tiny nitpick I have is the use of ellipsis to access a pop-over with only a singe item. Download Settings is one example of this pattern. Alternatively the settings icon could be used in place of the ellipsis and the user could access the settings with a single tap.
 
-![additionalactions](/img/quibi/604023b2eacfc856ce8d15e1_quibi-more.gif)
+{{< figure src="/img/quibi/604023b2eacfc856ce8d15e1_quibi-more.gif" class="img-tall" alt="additional actions" >}}
 
 Thanks for reading :)
