@@ -66,6 +66,7 @@ text-decoration: none;
 .workcard-copy h2 {
   font-family: Oswald;
   font-weight: 500;
+  margin-bottom: 0.2em;
 }
 
 .workcard-copy a:hover {
@@ -120,6 +121,15 @@ text-decoration: none;
 }
 
 .navmenu a:hover {
+  -webkit-transform: translate(0,-2px);
+  -ms-transform: translate(0,-2px);
+  transform: translate(0,-2px);
+  -webkit-transition: opacity .2s,-webkit-transform .2s;
+  transition: opacity .2s,transform .2s,-webkit-transform .2s;
+  color: #ffffff;
+}
+
+.navhome a:hover {
   -webkit-transform: translate(0,-2px);
   -ms-transform: translate(0,-2px);
   transform: translate(0,-2px);

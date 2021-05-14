@@ -1,9 +1,9 @@
 ---
 author: Martin Sitar
 title: My favourite tools for sketching.
-date: 2020-05-01
+date: 2020-04-20
 image: "img/sketching-ux.png"
-archives: ["2019/03"]
+archives: ["2020/04"]
 description: A brief guide to setup KaTeX
 math: true
 featured: true

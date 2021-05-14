@@ -1,5 +1,5 @@
 ---
 title: "Work"
-layout: staticpage
 layout: "work"
+tags: ["nav"]
 ---
