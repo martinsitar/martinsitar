@@ -18,7 +18,7 @@
     
     
         
-        <link rel="stylesheet" href="https://martinsitar.netlify.app/css/styles.min.5015c9527ad14549335dc55636fd61619cf017cf0b332f57f1ed912872c047a6.css" integrity="sha256-UBXJUnrRRUkzXcVWNv1hYZzwF88LMy9X8e2RKHLAR6Y=">
+        <link rel="stylesheet" href="https://martinsitar.netlify.app/css/styles.min.fb8f9b0c00d707713c786091dce167e9ca66bafee534310bd9a24049904a2e1a.css" integrity="sha256-+4+bDADXB3E8eGCR3OFn6cpmuv7lNDEL2aJASZBKLho=">
     
     <link href="/css/blonde.css" rel="stylesheet" type="text/css" media="print"
         onload="this.media='all'">
@@ -48,8 +48,8 @@
 
 
     
-<meta property="og:image" content="https://martinsitar.netlify.app/img/sketching-ux.png">
-<meta property="og:image:url" content="https://martinsitar.netlify.app/img/sketching-ux.png">
+<meta property="og:image" content="https://martinsitar.netlify.app/img/tempo/tempo-cover-1.png">
+<meta property="og:image:url" content="https://martinsitar.netlify.app/img/tempo/tempo-cover-1.png">
     
 
     
@@ -60,8 +60,8 @@
         <nav class="flex items-center justify-between flex-wrap p-6 md:px-0 md:py-6 md:max-w-screen-md mx-auto">
             <div class="flex items-center flex-no-shrink mr-6">
                 <a href="https://martinsitar.netlify.app">
-                    <svg x="0px" y="0px" width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> 
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M50 .324c-41.175 0-50 8.825-50 50s8.825 50 50 50 50-8.825 50-50-8.825-50-50-50zM46.784 57.18a1.528 1.528 0 001.528 0l8.94-5.16a1.07 1.07 0 011.604.925v18.059c0 .548.294 1.055.77 1.327l16.198 9.255a1.528 1.528 0 002.286-1.326V20.39a1.528 1.528 0 00-2.292-1.324l-27.506 15.88a1.528 1.528 0 01-1.528 0L22.182 20.744a1.528 1.528 0 00-2.292 1.323V40.77c0 .545.291 1.05.764 1.323l26.13 15.086z" fill="#000"/>
+                    <svg x="0px" y="0px" width="30" height="30" viewBox="0 0 100 100" fill="#000" xmlns="http://www.w3.org/2000/svg"> 
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M50 .324c-41.175 0-50 8.825-50 50s8.825 50 50 50 50-8.825 50-50-8.825-50-50-50zM46.784 57.18a1.528 1.528 0 001.528 0l8.94-5.16a1.07 1.07 0 011.604.925v18.059c0 .548.294 1.055.77 1.327l16.198 9.255a1.528 1.528 0 002.286-1.326V20.39a1.528 1.528 0 00-2.292-1.324l-27.506 15.88a1.528 1.528 0 01-1.528 0L22.182 20.744a1.528 1.528 0 00-2.292 1.323V40.77c0 .545.291 1.05.764 1.323l26.13 15.086z"/>
                     </svg>            
                 </a>
             </div>
@@ -74,7 +74,7 @@
             <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
                 <div class="text-sm lg:flex-grow">
                 </div>
-                <div class="navmenu">
+                <div class="navmenu ">
                     
                     
                     
@@ -91,13 +91,6 @@
                         Work
                     </a>
                     
-                    
-                    
-                    <a href="https://superpeer.com/martinsitar"
-                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center " href="https://superpeer.com/martinsitar">
-                        Mentorship
-                    </a>
-                    
                 </div>
             </div>
         </nav>
@@ -107,6 +100,9 @@
     html.wf-loading {
     opacity: 0;
 }
+.mobileactive {
+        display: block;
+    }
 </style>
 <script>
     let hamburger = document.getElementById('hamburgerbtn');
@@ -114,13 +110,12 @@
     let mobileMenu = document.getElementById('mobileMenu');
 
     hamburger.addEventListener('click', function () {
-        mobileMenu.classList.toggle('active');
+        mobileMenu.classList.toggle('mobileactive');
     });
 </script>
 
 
-<div class="width-full bg-green-500 py-60 bg-cover bg-center" style="background-image: url('/img/sketching-ux.png')">
-    
+<div class="width-full bg-green-500 py-60 bg-cover bg-center" style="background-image: url('/img/tempo/tempo-cover-1.png')">
 </div>
 
 <div class="content prose w-auto md:max-w-screen-md mx-auto mt-20" id="content">
@@ -131,168 +126,104 @@
                 <aside id="meta">
                     <div class="date text-gray-500 text-sm">
                         <section>
-                            <p id="date">Jan 21, 2015</p>
+                            <p id="date">Feb 19, 2020</p>
                         </section>
                     </div>
                 </aside>
                 <div class="content"><p>Tempo is an email client that helps you focus by letting you sort through email in batches rather than a constant stream of interruptions. This app is full of delightful animations and clever interactions that make it truly enjoyable to use. There are so many great things to cover you&rsquo;ll have to try it out to experience them all, here are the ones I feel are worth calling out.</p>
 <h2 id="workspace">Workspace</h2>
 <p>The workspace is your default landing page each time you launch Tempo. It&rsquo;s where all of your important emails live until you action them in some way. Focusing on the most important items is a refreshing change-up from starting out in a typically cluttered inbox. However, I do admit it was hard for me to wait for a batch of emails before reviewing them in focus mode. I still found myself checking the inbox multiple times per day.</p>
+<figure>
+    <img src="/img/tempo/60402482b9b4bde85dddf8cb_workspace-1.png"
+         alt="workspace"/> 
+</figure>
+
 <h2 id="focus-mode">Focus Mode</h2>
 <p>You can sort emails in your inbox using bulk actions or by making your way through the list one by one. Focus mode is a dedicated view where you individually review and categorize each item, progressing towards or staying at inbox zero. It&rsquo;s a way to churn through batches of items in your inbox in short focused sessions. Tempo even hints to let you know when it&rsquo;s time to pause and pick up the rest later. Actions are kept to the essentials, you can quick reply and quick forward, mark as to do, snooze, archive, or delete an item. For newsletters there is also a very clear unsubscribe button. The placement of actions to the right of the email feels natural and is consistent across the experience. I especially like how the one click unsubscribe button is subtly differentiated from the rest yet follows the same pattern and isn&rsquo;t unnecessarily over stated.</p>
+<figure>
+    <img src="/img/tempo/6040248336de29b1fa17d562_focus--2-.gif"
+         alt="focus"/> 
+</figure>
+
 <h2 id="compose">Compose</h2>
 <p>When was the last time you thought about the experience of composing an email? Admittedly it&rsquo;s not something I&rsquo;ve given a ton of thought, I always thought it was fine. Composing an email in Tempo was one of those moments when it instantly became clear how every other email client I&rsquo;ve used had fallen short. Here especially, it feels the interface is stripped down to only what&rsquo;s needed letting you focus on the task at hand, in this case writing. It supports mark-up, and there is a slick preview feature allowing you to see the rendered output. Once you actually start writing though, every piece of non-essential UI smoothly fades away and you just focus on writing. This is the kind of attention to detail that evokes a smile.</p>
+<figure>
+    <img src="/img/tempo/60402483fa2a8516e55d7840_compose.gif"
+         alt="comppose"/> 
+</figure>
+
 <h2 id="quick-actions">Quick Actions</h2>
 <p>Quick reply and quick forward are neat ways to perform these tasks right within the context of your inbox. The design of this component, 140 character limit and snappy transition just lend themselves perfectly to the task.</p>
+<figure>
+    <img src="/img/tempo/6040248377ebcb7aa5eb9d8f_quick-reply.png"
+         alt="quick reply"/> 
+</figure>
+
 <p>I find the interaction after hitting send a little jarring. The first time I sent an email I wasn&rsquo;t quite sure anything actually happened, or where to look for confirmation. To be fair, there is a nicely worded message at the top that even lets you cancel sending, but it&rsquo;s so subtle I really had to look for it. After using the app for a few days I learned to look up there, or top right for status messages. Perhaps there is an opportunity to increase the prominence of the important ones?</p>
+<figure>
+    <img src="/img/tempo/60402483a0e8c3eb60a0a956_message.png"
+         alt="message"/> 
+</figure>
+
 <h2 id="labels">Labels</h2>
 <p>I have personally wrestled between the aesthetic of using icons vs. the clarity of text on buttons in past projects. Kudos to Tempo for striking what seems like a perfect balance. Every single button has a label, either visible or on hover to clearly communicate its job. It&rsquo;s not super common to see this done so gracefully, and is a huge win for clarity and usability. There are a few tricky spots where space is limited but through some clever interactions they&rsquo;ve maintained this pattern.</p>
-<p>Labels</p>
+<figure>
+    <img src="/img/tempo/60402483614661bfdcbd6d3d_labels.gif"
+         alt="labels"/> 
+</figure>
+
 <h2 id="alternate-actions--short-cuts">Alternate Actions + Short Cuts</h2>
 <p>There are (at least) two keyboard actions that reveal additional functionality. Holding down command displays the keyboard shortcuts for pretty much all of the buttons on a page. I love that this is done without having to look up a help document or an FAQ page. The icons slide away to make room, and shortcuts appear within each button.</p>
-<p>Short cuts
-Another example of prioritizing the essential and cutting excess is physically hiding some less common actions behind their counterparts, delete behind archivefor example. Holding down the option key smoothly swaps the buttons and you can perform the alternate action.</p>
-<p>Alternate actions</p>
+<figure>
+    <img src="/img/tempo/60402483fa2a857fd35d7841_shortcuts.gif"
+         alt="shortcuts"/> 
+</figure>
+
+<p>Another example of prioritizing the essential and cutting excess is physically hiding some less common actions behind their counterparts, delete behind archivefor example. Holding down the option key smoothly swaps the buttons and you can perform the alternate action.</p>
+<figure>
+    <img src="/img/tempo/60402484b9b4bd4041ddf8cc_swap-3.gif"
+         alt="swap"/> 
+</figure>
+
 <h2 id="search">Search</h2>
 <p>So much is done so well in Tempo, but for me one area fell a little short. The search experience and subsequent flows don&rsquo;t feel quite as smooth as the rest of the app. Search opens in a pop-up window which is a little jarring and quite a departure from the full page transitions of other features. Your focus shifts to interacting with items within this window and certain actions like replying to email open in another pop-up window. With each of the other features having their own pages within the main view, I kind of I expected search to work in a similar way.</p>
+<figure>
+    <img src="/img/tempo/604024844f77d34c4c0d5849_search.png"
+         alt="search"/> 
+</figure>
+
 <p>Tempo is an incredibly well designed product. It&rsquo;s currently free while in Beta so give it a shot to explore and experience the interactions first hand.</p>
 <p>Thanks for reading.</p>
 </div>
                 <hr class="py-2">
-                <aside id="meta">
-                    
-                    <div class="grid grid-cols-2">
-                        <div class="col-span-1">
-                            
-                            <a class="previous lg:text-2xl" href="https://martinsitar.netlify.app/post/peloton/">
-                                <div class="bg-gray-200 h-auto m-3 text-center py-3 lg:py-1">
-                                    &lt; Peloton
-                                </div>
-                            </a>
-                            
-                        </div>
-                        
-                        <a class="next lg:text-2xl" href="https://martinsitar.netlify.app/post/minimalist/">
-                            <div class="col-span-1 bg-gray-200 h-auto m-3 text-center py-3 lg:py-1">
-                                MinimaList &gt;
-                            </div>
-                        </a>
-                        
-                    </div>
-                </aside>
-                <hr class="py-2">
-                <div class="mb-3">
-                    
-                </div>
-            </div>
-            <div class="">
-                
-                
-<div class="bg-white panel mb-3">
-    <p class="text-xl text-center text-gray-700 py-3 px-3">Archives</p>
-    
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2019/03">2019/03 (5)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2019/11">2019/11 (1)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/01">2020/01 (1)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/02">2020/02 (1)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/03">2020/03 (1)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/04">2020/04 (2)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/06">2020/06 (1)</a>
-    
-    <a class="text-center block py-2 px-4 duration-100 bg-white text-gray-800 hover:bg-gray-200"
-        href="https://martinsitar.netlify.app/archives/2020/08">2020/08 (1)</a>
-    
-    
-</div>
-
-                
-
-<div class="bg-white panel mb-3 pb-5">
-    <p class="text-xl text-center text-gray-700 py-5">Categories</p>
-    
-    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800"
-        href="https://martinsitar.netlify.app/categories/syntax">Syntax</a>
-
-    
-    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800"
-        href="https://martinsitar.netlify.app/categories/themes">Themes</a>
-
-    
-</div>
-
-
-                
-
-<div class="bg-white panel mb-3">
-    <p class="text-xl text-center text-gray-700 py-3 pl-3">Tags</p>
-    <div class="panel-block p-2">
-        <a href="/tags/css">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                css
-            </span></a>
-        <a href="/tags/emoji">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                emoji
-            </span></a>
-        <a href="/tags/html">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                html
-            </span></a>
-        <a href="/tags/markdown">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                markdown
-            </span></a>
-        <a href="/tags/privacy">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                privacy
-            </span></a>
-        <a href="/tags/shortcodes">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                shortcodes
-            </span></a>
-        <a href="/tags/text">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                text
-            </span></a>
-        <a href="/tags/themes">
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
-                themes
-            </span></a>
+                <div class="bg-gray-50 rounded-lg mb-16 subscribe">
+    <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 text-center">
+      <h2>
+        <span class="block font-extrabold text-3xl tracking-tight text-gray-900">Subscribe to my newsletter, Downtime.</span>
+      </h2>
+      <p>
+      <span class="block text-indigo-600 text-lg font-normal mt-1">Latest posts delivered to your inbox 1-2 times per month.</span>
+      </p>
+      <div class="mt-5">
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/martinsitar"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/martinsitar', 'popupwindow')"
+        class="embeddable-buttondown-form flex" 
+      >
+        <input type="email" name="email" class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-md sm:text-sm border-gray-300" placeholder="www.example.com" id="bd-email" />
+        <input type="hidden" value="1" name="embed" />
+        <button type="submit" class=" items-center justify-center px-3.5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 ml-4" value="Subscribe">Subscribe</button>
+      </form>
     </div>
-</div>
-
-
-
-                
-            </div>
-        </div>
+    </div>
+  </div></div>
     </div>
 </div>
 <footer class="text-gray-400 p-6">
     
-    <div class="container mr-auto ml-auto text-center">
+    <div class="container mr-auto ml-auto text-center text-sm">
         <p>&copy; 2021 <a href="https://martinsitar.netlify.app" class="hover:text-gray-500">Martin Sitar</a> - Powered by <a href="https://gohugo.io/" class="hover:text-gray-500">Hugo</a></p>
     </div>
     <script src="/js/switch.js"></script>
