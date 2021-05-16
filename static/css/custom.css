@@ -54,13 +54,13 @@
 }
 
 .workcard-copy a {
-margin-left: 0;
-border-radius: 4px;
-background-color: #4770ff;
--webkit-transition: background-color .2s;
-transition: background-color .2s;
-color: #fff;
-text-decoration: none;
+  margin-left: 0;
+  border-radius: 4px;
+  background-color: #4770ff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #fff;
+  text-decoration: none;
 }
 
 .workcard-copy h2 {
@@ -120,21 +120,26 @@ text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
+.subscribe h2 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
 .navmenu a:hover {
-  -webkit-transform: translate(0,-2px);
-  -ms-transform: translate(0,-2px);
-  transform: translate(0,-2px);
-  -webkit-transition: opacity .2s,-webkit-transform .2s;
-  transition: opacity .2s,transform .2s,-webkit-transform .2s;
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
   color: #ffffff;
 }
 
 .navhome a:hover {
-  -webkit-transform: translate(0,-2px);
-  -ms-transform: translate(0,-2px);
-  transform: translate(0,-2px);
-  -webkit-transition: opacity .2s,-webkit-transform .2s;
-  transition: opacity .2s,transform .2s,-webkit-transform .2s;
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
   color: #4770ff;
 }
 
@@ -146,8 +151,8 @@ text-decoration: none;
   margin: auto;
 }
 
-.img-tall img{
-  max-height:600px
+.img-tall img {
+  max-height: 600px;
 }
 
 .content iframe {

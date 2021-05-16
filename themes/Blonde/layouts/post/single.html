@@ -19,6 +19,7 @@
                 </aside>
                 <div class="content">{{.Content}}</div>
                 <hr class="py-2">
+                <!--
                 <aside id="meta">
                     {{ with .Params.categories }}
                     <div id="categories">
@@ -60,7 +61,8 @@
                 {{ partial "widgets/category.html" . }}
                 {{ partial "widgets/tags.html" . }}
                 {{ partial "widgets/recent.html" . }}
-            </div>
+            </div>-->
+            {{- partial "subscribe.html" . -}}
         </div>
     </div>
 </div>

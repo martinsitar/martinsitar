@@ -25,7 +25,7 @@
               {{ end }}-->
               <div class="prose bottom-0 left-0 p-7 absolute homecard-copy">
                       <h1>{{.Title}}</h1>
-                      <p class="opacity-50">
+                      <p class="opacity-70">
                           <time>{{ .Date.Format "Jan 2, 2006" }}</time>
                       </p>
               </div>
@@ -33,25 +33,7 @@
           </a>
         {{ end }}
       
-
-        
-
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="bg-gray-50 rounded-lg mb-16">
-        <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-          <h2 class="text-xl tracking-tight text-gray-900 sm:text-2xl">
-            <span class="block font-extrabold">Subscribe to my newsletter, Downtime.</span>
-            <span class="block text-indigo-600 text-lg font-normal">Latest posts delivered to your inbox 1-2 times per month.</span>
-          </h2>
-          <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div class="inline-flex rounded-md shadow">
-              <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-                Subscribe
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+        {{- partial "subscribe.html" . -}}
 
     <div class="">
         {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
