@@ -19,7 +19,7 @@ googleAnalytics = "G-1234567890"
 [params]
 # The number of articles to be displayed on a single page.
 paginator_pages = "5"
-thumbnail = "/img/thumbnail.png"
+images = ["thumbnail.png"]
 
 # Enable this if you want the archive list to be in a drop-down format.
 archive_dropdown = "false"
