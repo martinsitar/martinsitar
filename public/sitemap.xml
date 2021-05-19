@@ -2,69 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://martinsitar.netlify.app/</loc>
+    <loc>/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/overlap/</loc>
+    <loc>/post/overlap/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/highlighted/</loc>
+    <loc>/post/highlighted/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/duolingo/</loc>
+    <loc>/post/duolingo/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/sketching-ux/</loc>
+    <loc>/post/sketching-ux/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/quibi/</loc>
+    <loc>/post/quibi/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/minimalist/</loc>
+    <loc>/post/minimalist/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/tempo/</loc>
+    <loc>/post/tempo/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/peloton/</loc>
+    <loc>/post/peloton/</loc>
     <lastmod>2020-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/post/disneyplus/</loc>
+    <loc>/post/disneyplus/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/</loc>
+    <loc>/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2019/11/</loc>
+    <loc>/archives/2019/11/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/01/</loc>
+    <loc>/archives/2020/01/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/02/</loc>
+    <loc>/archives/2020/02/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/03/</loc>
+    <loc>/archives/2020/03/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/04/</loc>
+    <loc>/archives/2020/04/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/06/</loc>
+    <loc>/archives/2020/06/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/2020/08/</loc>
+    <loc>/archives/2020/08/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/contact/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/tags/nav/</loc>
+    <loc>/tags/nav/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/tags/</loc>
+    <loc>/series/</loc>
   </url><url>
-    <loc>https://martinsitar.netlify.app/work/</loc>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/work/</loc>
   </url>
 </urlset>

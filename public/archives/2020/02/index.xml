@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020/02 on Martin Sitar</title>
-    <link>https://martinsitar.netlify.app/archives/2020/02/</link>
+    <link>/archives/2020/02/</link>
     <description>Recent content in 2020/02 on Martin Sitar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://martinsitar.netlify.app/archives/2020/02/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/archives/2020/02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tempo</title>
-      <link>https://martinsitar.netlify.app/post/tempo/</link>
+      <link>/post/tempo/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://martinsitar.netlify.app/post/tempo/</guid>
+      <guid>/post/tempo/</guid>
       <description>Tempo is an email client that helps you focus by letting you sort through email in batches rather than a constant stream of interruptions. This app is full of delightful animations and clever interactions that make it truly enjoyable to use. There are so many great things to cover you&amp;rsquo;ll have to try it out to experience them all, here are the ones I feel are worth calling out.
 Workspace The workspace is your default landing page each time you launch Tempo.</description>
     </item>

@@ -66,6 +66,7 @@ tagsLimit = 20
 category = "categories"
 tag = "tags"
 archive = "archives"
+series = "series"
 
 [privacy]
 

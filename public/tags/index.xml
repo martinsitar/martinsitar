@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Martin Sitar</title>
-    <link>https://martinsitar.netlify.app/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Martin Sitar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://martinsitar.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nav</title>
-      <link>https://martinsitar.netlify.app/tags/nav/</link>
+      <link>/tags/nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://martinsitar.netlify.app/tags/nav/</guid>
+      <guid>/tags/nav/</guid>
       <description></description>
     </item>
     
