@@ -32,4 +32,10 @@
     {{ block "header_css" . }}{{ end }}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
+    {{ with .Params.og_image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ with .Params.og_image }}
+  <meta name="twitter:image" content="{{ . | absURL }}">
+{{ end }}
 </head>
