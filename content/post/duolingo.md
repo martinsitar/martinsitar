@@ -3,7 +3,7 @@ author: Martin Sitar
 title: Duolingo
 date: 2020-04-27
 image: "img/duolingo/60403483038a5ae4e0c7ab46_duo-cover.png"
-
+images: ["img/duolingo/60403483038a5ae4e0c7ab46_duo-cover.png"]
 archives: ["2020/04"]
 description: Key details that help make learning a language feel fun.
 featured: false
