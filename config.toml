@@ -6,6 +6,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
+images = ["img/thumbnail.png"]
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
@@ -19,7 +20,6 @@ googleAnalytics = "G-1234567890"
 [params]
 # The number of articles to be displayed on a single page.
 paginator_pages = "5"
-images = ["img/thumbnail.png"]
 
 # Enable this if you want the archive list to be in a drop-down format.
 archive_dropdown = "false"
