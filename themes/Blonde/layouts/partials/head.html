@@ -30,10 +30,5 @@
     onload="this.media='all'">
     {{ partial "seo/print.html" . }}
     {{ block "header_css" . }}{{ end }}
-    {{ with .Params.og_image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-{{ end }}
-{{ with .Params.og_image }}
-  <meta name="twitter:image" content="{{ . | absURL }}">
-{{ end }}
+    {{ template "_internal/opengraph.html" . }}
 </head>
