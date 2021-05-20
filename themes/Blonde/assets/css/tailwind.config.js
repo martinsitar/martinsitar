@@ -4,6 +4,11 @@ module.exports = {
       '450': '450px',
      },
     extend: {
+      colors: {
+        gray: {
+            '950': '#0E1420'
+        }
+      },
       typography(theme) {
         return {
           dark: {
@@ -28,7 +33,7 @@ module.exports = {
                 color: theme("colors.gray.200"),
                 backgroundColor: theme("colors.gray.800"),
               },
-              thead: {
+              thread: {
                 color: theme("colors.gray.100"),
                 borderBottomColor: theme("colors.gray.700"),
               },
@@ -46,4 +51,5 @@ module.exports = {
 
   plugins: [require("@tailwindcss/typography"),require('@tailwindcss/forms')],
 
+  darkMode: "media",
 };
