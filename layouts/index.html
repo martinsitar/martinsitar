@@ -33,7 +33,7 @@
           </a>
         {{ end }}
       
-        {{- partial "subscribe.html" . -}}
+        <!--{{- partial "subscribe.html" . -}}-->
 
     <div class="">
         {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
