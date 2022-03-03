@@ -15,7 +15,7 @@
                 </button>
             </div>
             <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
-                <div class="text-sm lg:flex-grow">
+                <div class="text-sm lg:grow">
                 </div>
                 <div class="navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
                     {{ $current := . }}
