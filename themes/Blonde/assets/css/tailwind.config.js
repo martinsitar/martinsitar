@@ -48,6 +48,10 @@ module.exports = {
     },
   },
 
+  corePlugins: {
+    preflight: false,
+  },
+
   variants: {
     extend: { typography: ["dark"] }
   },

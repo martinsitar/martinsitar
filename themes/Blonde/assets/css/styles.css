@@ -7,6 +7,8 @@
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";
 
+@tailwind base;
+
 @layer base {
   h1 {
     font-family: Open Sans;
