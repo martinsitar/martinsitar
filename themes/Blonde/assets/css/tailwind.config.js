@@ -8,7 +8,8 @@ module.exports = {
         'bubble-gum':'#ff77e9',
         'bermuda':'#78dcca',
         gray: {
-            '950':'#0E1420'
+            '950':'#0E1420',
+            '975':'#030303',
         },
       },
       typography(theme) {
