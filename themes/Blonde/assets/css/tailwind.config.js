@@ -3,18 +3,12 @@ module.exports = {
     height: {
       '450': '450px',
      },
-     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
-    },
     extend: {
       colors: {
-        'bubble-gum': '#ff77e9',
-        'bermuda': '#78dcca',
+        'bubble-gum':'#ff77e9',
+        'bermuda':'#78dcca',
         gray: {
-            '950': '#0E1420'
+            '950':'#0E1420'
         },
       },
       typography(theme) {
