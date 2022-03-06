@@ -12,6 +12,11 @@
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^3.0.22"
   },
+    "dependencies": {
+      "postcss-cli": "^9.1.0",
+      "postcss": "^8.4.6",
+      "autoprefixer": "^10.4.2"
+    },
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
