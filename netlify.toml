@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  publish = "public"  // default hugo build folder
+  command = "hugo --gc --minify" // hugo build command
 
 [build.environment]
   HUGO_VERSION = "v0.92.2"
