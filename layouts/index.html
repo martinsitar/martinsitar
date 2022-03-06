@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="w-full bg-neutral-100 py-44 feature dark:bg-black">
+    <div class="max-w-screen-md mx-5 md:mx-auto text-center lg:text-left">
+          <h1 class="tracking-tight font-extrabold text-6xl">
+            <span class="block xl:inline text-indigo-600 dark:text-white">HI, I'M MARTIN</span>
+          </h1>
+          <p class="mt-5 text-base text-gray-500 sm:mt-5 text-lg sm:mx-auto md:text-xl lg:mx-0 dark:text-gray-400">
+            I'm a product designer currently working on data insights at Shopify. This site is where I share my personal experiences and thoughts on design.
+            I also teach and try to give back by mentoring aspiring designers.
+          </p>
+    </div>
+</div>
+
+<div class="w-auto md:max-w-screen-md md:mx-auto mt-4">
+    <div class="mx-5">
+          {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+            <a href="{{ .Page.RelPermalink }}">
+              <div class="rounded-lg bg-cover bg-center mb-16 mt-16 relative h-450px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
+                <!--{{ if .Params.image }}
+                <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full lg:{{ .Site.Params.post.thumbnail_width }} lg:{{ .Site.Params.post.thumbnail_height }}" src="{{ .Params.image | relURL }}" />
+                {{ else }}
+                <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full" src="{{ "/img/default.jpg" | relURL }}">
+                {{ end }}-->
+                <div class="prose bottom-0 left-0 p-7 absolute homecard-copy">
+                        <h1>{{.Title}}</h1>
+                        <p class="opacity-70">
+                            <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                        </p>
+                </div>
+            </div>
+            </a>
+          {{ end }}
+  
+      <div class="">
+          {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
+          <a href="{{.RelPermalink}}">
+            {{ .Render "summary" }}
+          </a>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
