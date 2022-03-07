@@ -1,68 +1,69 @@
 <div class="w-full mx-auto absolute">
-    <nav class="flex items-center justify-between flex-wrap p-6 md:px-0 md:py-6 md:max-w-screen-md mx-auto">
-        <div class="flex items-center flex-no-shrink mr-6">
-            <!-- Website Logo -->
-            <a href="{{ .Site.BaseURL }}">
-                <svg x="0px" y="0px" width="30" height="30" viewBox="0 0 100 100" class="fill-current dark:text-white" xmlns="http://www.w3.org/2000/svg"> 
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M50 .324c-41.175 0-50 8.825-50 50s8.825 50 50 50 50-8.825 50-50-8.825-50-50-50zM46.784 57.18a1.528 1.528 0 001.528 0l8.94-5.16a1.07 1.07 0 011.604.925v18.059c0 .548.294 1.055.77 1.327l16.198 9.255a1.528 1.528 0 002.286-1.326V20.39a1.528 1.528 0 00-2.292-1.324l-27.506 15.88a1.528 1.528 0 01-1.528 0L22.182 20.744a1.528 1.528 0 00-2.292 1.323V40.77c0 .545.291 1.05.764 1.323l26.13 15.086z"/>
-                </svg>    
-            </a>
-        </div>
-        <!-- Primary Navbar items -->
-        <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto">
-            <div class="navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
+<nav class="relative flex flex-wrap items-center justify-between px-4 lg:px-0 py-3 mb-3 md:max-w-screen-md mx-auto">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <!-- Website Logo -->
+        <a href="{{ .Site.BaseURL }}">
+            <svg x="0px" y="0px" width="30" height="30" viewBox="0 0 100 100" class="fill-current dark:text-white" xmlns="http://www.w3.org/2000/svg"> 
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M50 .324c-41.175 0-50 8.825-50 50s8.825 50 50 50 50-8.825 50-50-8.825-50-50-50zM46.784 57.18a1.528 1.528 0 001.528 0l8.94-5.16a1.07 1.07 0 011.604.925v18.059c0 .548.294 1.055.77 1.327l16.198 9.255a1.528 1.528 0 002.286-1.326V20.39a1.528 1.528 0 00-2.292-1.324l-27.506 15.88a1.528 1.528 0 01-1.528 0L22.182 20.744a1.528 1.528 0 00-2.292 1.323V40.77c0 .545.291 1.05.764 1.323l26.13 15.086z"/>
+            </svg>    
+        </a>
+        <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+            <svg class=" w-6 h-6 text-gray-500 hover:text-green-500"
+            x-show="!showMenu"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            >
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+      </div>
+      <div class="lg:flex grow items-center hidden">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
             {{ $current := . }}
             {{ range .Site.Menus.main }}
             {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
             {{ $active = or $active (eq .Name $current.Title) }}
-            <a href="{{ .URL }}"
+            <li class="nav-item">
+                <a href="{{ .URL }}"
                 class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
                 {{ .Name }}
             </a>
+              </li>
             {{ end }}
-            </div>
-        </div>
-        <!-- Mobile menu button -->
-        <div class="md:hidden flex items-center">
-            <button class="outline-none mobile-menu-button">
-                <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
-                x-show="!showMenu"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                >
-                <path d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-        </div>
-    </nav>
-</div>
-
-<!-- mobile menu -->
-<div class="hidden mobile-menu">
-    <div class="navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
-    {{ $current := . }}
-    {{ range .Site.Menus.main }}
-    {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
-    {{ $active = or $active (eq .Name $current.Title) }}
-    <a href="{{ .URL }}"
-    class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
-    {{ .Name }}
-    </a>
-    {{ end }}
+        </ul>
+      </div>
+      <div class="lg:hidden">
+      <div class="lg:flex flex-grow items-center hidden" id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+            {{ $active = or $active (eq .Name $current.Title) }}
+            <li class="nav-item">
+                <a href="{{ .URL }}"
+                class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
+                {{ .Name }}
+            </a>
+              </li>
+            {{ end }}
+        </ul>
+      </div>
     </div>
+    </div>
+  </nav>
 </div>
+  <script>
+    function toggleNavbar(collapseID){
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("flex");
+    }
+  </script>
 
-<script>
-const btn = document.querySelector("button.mobile-menu-button");
-const menu = document.querySelector(".mobile-menu");
-
-btn.addEventListener("click", () => {
-menu.classList.toggle("hidden");
-});
-</script>
+  
 
   
