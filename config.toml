@@ -26,3 +26,5 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 
 [params]
   custom_css = ["css/custom.css"]
+  twitter_cards = true
+  images = ["img/thumbnail.png"]
