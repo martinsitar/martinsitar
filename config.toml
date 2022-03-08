@@ -29,4 +29,4 @@ disableKinds = ["taxonomy","taxonomyTerm"]
   twitter_cards = true
   images = ["img/thumbnail.png"]
 
-  googleAnalytics = 'UA-39096719-3'
+  googleAnalytics = 'G-HSYQR3E229'
