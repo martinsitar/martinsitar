@@ -4,6 +4,7 @@ author = "Martin Sitar"
 languageCode = "en-us"
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
+googleAnalytics = 'G-HSYQR3E229'
 
 [markup]
   [markup.goldmark]
@@ -28,5 +29,3 @@ disableKinds = ["taxonomy","taxonomyTerm"]
   custom_css = ["css/custom.css"]
   twitter_cards = true
   images = ["img/thumbnail.png"]
-
-  googleAnalytics = 'G-HSYQR3E229'
