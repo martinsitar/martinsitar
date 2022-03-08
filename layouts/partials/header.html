@@ -1,5 +1,5 @@
 <div class="w-full mx-auto absolute">
-<nav class="relative flex flex-wrap items-center justify-between px-4 lg:px-0 py-3 mb-3 md:max-w-screen-md mx-auto">
+<nav class="relative flex flex-wrap items-center justify-between px-4 lg:px-0 py-3 mb-3 lg:max-w-screen-md mx-auto">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
         <!-- Website Logo -->
@@ -8,7 +8,7 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M50 .324c-41.175 0-50 8.825-50 50s8.825 50 50 50 50-8.825 50-50-8.825-50-50-50zM46.784 57.18a1.528 1.528 0 001.528 0l8.94-5.16a1.07 1.07 0 011.604.925v18.059c0 .548.294 1.055.77 1.327l16.198 9.255a1.528 1.528 0 002.286-1.326V20.39a1.528 1.528 0 00-2.292-1.324l-27.506 15.88a1.528 1.528 0 01-1.528 0L22.182 20.744a1.528 1.528 0 00-2.292 1.323V40.77c0 .545.291 1.05.764 1.323l26.13 15.086z"/>
             </svg>    
         </a>
-        <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+        <button class="text-white cursor-pointer z-10 lg:hidden" type="button" onclick="toggleNavbar('example-collapse-navbar')">
             <svg class=" w-6 h-6 text-gray-500 hover:text-white"
             x-show="!showMenu"
             fill="none"
@@ -37,16 +37,16 @@
             {{ end }}
         </ul>
       </div>
-      <div class="lg:hidden">
-      <div class="lg:flex flex-grow items-center hidden" id="example-collapse-navbar">
-        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
+      <div class="lg:hidden w-full mx-auto">
+      <div class="hidden bg-black/75 h-screen w-screen absolute top-0 left-0 py-8" id="example-collapse-navbar">
+        <ul class="flex flex-col mx-auto list-none navmenu {{ if or (in .Params.tags "nav") (.IsHome) }} navhome {{ end }}">
             {{ $current := . }}
             {{ range .Site.Menus.main }}
             {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
             {{ $active = or $active (eq .Name $current.Title) }}
             <li class="nav-item">
                 <a href="{{ .URL }}"
-                class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4 uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
+                class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mx-auto uppercase text-sm text-center {{ if $active }}active{{ end }}" href="{{ .URL }}">
                 {{ .Name }}
             </a>
               </li>
