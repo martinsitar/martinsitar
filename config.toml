@@ -4,7 +4,7 @@ author = "Martin Sitar"
 languageCode = "en-us"
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
-googleAnalytics = 'G-HSYQR3E229'
+googleAnalytics = 'UA-39096719-3'
 
 [markup]
   [markup.goldmark]
