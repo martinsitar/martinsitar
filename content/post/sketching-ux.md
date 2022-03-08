@@ -3,6 +3,7 @@ author: Martin Sitar
 title: My favourite tools for sketching.
 date: 2020-04-20
 image: "img/sketching-ux.png"
+feature: "img/sketching-ux.png"
 archives: ["2020/04"]
 description: Sketching is a big part of my design process. Here are some of my favourite tools.
 math: true
