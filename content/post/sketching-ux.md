@@ -7,7 +7,7 @@ feature: "img/sketching-ux.png"
 archives: ["2020/04"]
 description: Sketching is a big part of my design process. Here are some of my favourite tools.
 math: true
-featured: true
+featured: false
 ---
 
 Sketching concepts and ideas is a big part of my design process. It’s how I begin to visualize ways to solve a problem and quickly iterate through ideas. Sketching is imperfect and prevents you from getting caught up in too many details. I find there’s something special and freeing about exploring ideas in this way.
