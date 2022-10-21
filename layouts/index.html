@@ -15,7 +15,7 @@
     <div class="mx-5">
           {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
             <a href="{{ .Page.RelPermalink }}">
-              <div class="rounded-lg bg-cover bg-center mb-16 mt-16 relative h-450px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
+              <div class="rounded-xl bg-cover bg-center mb-16 mt-16 relative h-450px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
                 <!--{{ if .Params.image }}
                 <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full lg:{{ .Site.Params.post.thumbnail_width }} lg:{{ .Site.Params.post.thumbnail_height }}" src="{{ .Params.image | relURL }}" />
                 {{ else }}

@@ -12,7 +12,10 @@ module.exports = {
         },
         height: {
             '450px': '450px',
-        }
+        },
+        borderRadius: {
+            '4xl': '2rem',
+          },
     }
 },
   plugins: [

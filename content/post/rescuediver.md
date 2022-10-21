@@ -1,7 +1,7 @@
 ---
 author: Martin Sitar
 title: Dive weekend - PADI Rescue Diver Certification.
-date: 2021-03-08
+date: 2021-10-08
 image: "img/rescuediver/rd-cover.png"
 feature: "img/rescuediver/rd-thumb-lg.png"
 thumbnail: "img/rescuediver/rd-thumb.png"

@@ -1,0 +1,190 @@
+p {
+  font-family: Bitter;
+  letter-spacing: 0.04rem;
+}
+
+.content {
+  margin-bottom: 0em;
+  margin-top: 3rem;
+}
+.content li {
+  font-size: 1.1em;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.content a {
+  color: #007bff;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+.content p {
+  font-family: Bitter;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.1em;
+  letter-spacing: 0.04rem;
+  line-height: 1.95rem;
+}
+
+.homecard {
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.homecard::after {
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.homecard:hover {
+  -webkit-transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
+}
+
+.homecard-copy h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0em;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.homecard-copy p {
+  color: #ffffff;
+  margin-bottom: 0em;
+  margin-top: 0rem;
+}
+
+.feature h1 {
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.workcard-copy a {
+  margin-left: 0;
+  border-radius: 4px;
+  background-color: #4770ff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.workcard-copy h2 {
+  font-family: Oswald;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+
+.workcard-copy a:hover {
+  background-color: #243039;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin-bottom: 0em;
+  margin-top: 1rem;
+}
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 0em;
+  margin-top: 5rem;
+  line-height: 3.5rem;
+}
+
+.content h2 {
+  font-size: 1.6rem;
+  padding-top: 0.55em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  border-left: none;
+}
+.content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid #222;
+  font-weight: 700;
+}
+.content h4 {
+  font-size: 1.25rem;
+}
+.date h4 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: normal;
+  color: #374151;
+}
+.content h5 {
+  font-size: 1.125rem;
+}
+.content h6 {
+  font-size: 1rem;
+}
+.content b {
+  font-style: bold;
+}
+.content blockquote {
+  background-color: #edf2f7;
+  padding: 0.5rem 1rem;
+}
+
+.subscribe h2 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.navmenu a:hover {
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
+  color: #ffffff;
+}
+
+.navhome a:hover {
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
+  color: #4770ff;
+}
+
+.active {
+  color: #4770ff;
+}
+
+.content img {
+  margin: auto;
+}
+
+.img-tall img {
+  max-height: 600px;
+}
+
+.content iframe {
+  margin: auto;
+}
+
+.content li {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.homecard {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .homecard::after {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .homecard:hover {
+    -webkit-transform: scale(1.01, 1.01);
+    transform: scale(1.01, 1.01);
+  }
+  

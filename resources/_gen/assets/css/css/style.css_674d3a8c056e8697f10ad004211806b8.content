@@ -1279,6 +1279,10 @@ select {
   justify-content: space-between;
 }
 
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1331,6 +1335,11 @@ select {
   padding: 1.5rem;
 }
 
+.py-52 {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+}
+
 .py-60 {
   padding-top: 15rem;
   padding-bottom: 15rem;
@@ -1369,11 +1378,6 @@ select {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-52 {
-  padding-top: 13rem;
-  padding-bottom: 13rem;
 }
 
 .pt-2 {
@@ -1539,24 +1543,14 @@ select {
     --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
   }
 
-  .dark\:bg-orange-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-zinc-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-  }
-
   .dark\:bg-black {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-red-600 {
+  .dark\:bg-zinc-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
   }
 
   .dark\:text-white {
