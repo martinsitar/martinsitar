@@ -3,6 +3,11 @@ p {
   letter-spacing: 0.04rem;
 }
 
+h1 {
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+}
+
 .content {
   margin-bottom: 0em;
   margin-top: 3rem;
@@ -57,8 +62,8 @@ p {
 }
 
 .feature h1 {
-  font-family: Oswald;
-  font-weight: 500;
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
 }
 
 .workcard-copy a {
@@ -72,8 +77,8 @@ p {
 }
 
 .workcard-copy h2 {
-  font-family: Oswald;
-  font-weight: 500;
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
   margin-bottom: 0.2em;
 }
 
@@ -158,6 +163,8 @@ p {
 
 .content img {
   margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .img-tall img {

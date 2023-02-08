@@ -57,7 +57,7 @@ p {
 }
 
 .feature h1 {
-  font-family: Oswald;
+  font-family: 'Source Serif Pro';
   font-weight: 500;
 }
 
@@ -72,9 +72,9 @@ p {
 }
 
 .workcard-copy h2 {
-  font-family: Oswald;
-  font-weight: 500;
-  margin-bottom: 0.2em;
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+  margin-bottom: 0em;
 }
 
 .workcard-copy a:hover {
@@ -158,7 +158,6 @@ p {
 
 .content img {
   margin: auto;
-  padding: 1rem 0rem;
 }
 
 .img-tall img {
