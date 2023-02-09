@@ -1326,11 +1326,6 @@ select {
   padding: 1.5rem;
 }
 
-.py-64 {
-  padding-top: 16rem;
-  padding-bottom: 16rem;
-}
-
 .py-60 {
   padding-top: 15rem;
   padding-bottom: 15rem;
@@ -1381,6 +1376,11 @@ select {
   padding-bottom: 2rem;
 }
 
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1419,14 +1419,14 @@ select {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-extrabold {
@@ -1445,9 +1445,9 @@ select {
   letter-spacing: -0.025em;
 }
 
-.text-indigo-600 {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(79 70 229 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -1604,6 +1604,11 @@ select {
   .sm\:items-center {
     align-items: center;
   }
+
+  .sm\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1622,6 +1627,11 @@ select {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
   }
 
   .md\:text-xl {
@@ -1670,6 +1680,11 @@ select {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
   }
 
   .lg\:py-1 {
