@@ -1318,6 +1318,10 @@ select {
   fill: currentColor;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .p-7 {
   padding: 1.75rem;
 }
