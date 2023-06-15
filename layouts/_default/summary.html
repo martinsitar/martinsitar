@@ -4,12 +4,12 @@
     {{ else }}
     <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full" src="{{ "/img/default.jpg" | relURL }}">
     {{ end }}-->
-    <div class="flex justify-center">
-    <div class="w-full prose bottom-0 p-12 absolute homecard-copy text-center">
+    <!--<div class="flex justify-center">-->
+    <div class="prose bottom-0 left-0 p-12 absolute homecard-copy">
         <h1>{{.Title}}</h1>
             <p class="opacity-70">
                 <time>{{ .Date.Format "Jan 2, 2006" }}</time>
             </p>
-    </div>
-    </div>
+    <!--</div>-->
+</div>
 </div>
