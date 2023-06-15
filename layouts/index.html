@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="w-full bg-neutral-100 lg:py-64 lg:pb-48 py-36 pb-20 feature dark:bg-zinc-900">
+<div class="w-full bg-neutral-100 lg:py-64 lg:pb-48 py-36 pb-20 feature dark:bg-[#0B0B0F]">
     <div class="max-w-screen-md mx-5 md:mx-auto text-center lg:text-left">
           <h1 class="tracking-tight font-extrabold text-6xl">
             <span class="block xl:inline text-gray-900 dark:text-zinc-100">Hi, I'm Martin</span>
@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div class="w-auto md:max-w-screen-md md:mx-auto mt-4">
+<div class="w-auto md:max-w-screen-lg md:mx-auto mt-4">
     <div class="mx-5">
           {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
             <a href="{{ .Page.RelPermalink }}">
