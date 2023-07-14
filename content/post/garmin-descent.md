@@ -8,7 +8,7 @@ thumbnail: "img/descent/thumb.png"
 archives: ["2022/11"]
 description: One year with the Garmin Descent MK2s
 math: true
-featured: true
+featured: false
 ---
 
 It’s been almost a year since I got my Garmin Descent MK2s. Smartwatches weren't something I was drawn to, but with my Suuno Vyper showing it’s age I really liked the idea of having a single device I could use as a dive computer, track activities and health stats, and to tell time. I’ve worn the Descent almost daily, it’s very light, at 42mm the perfect size for my wrist, and the battery easily lasts a full week. I reserve my mechanical watch for special occasions. In the last year I’ve taken the Descent SCBUA diving, free diving, cycling, mountain biking, hiking, running, stand-up paddle boarding and more, it has never let me down.

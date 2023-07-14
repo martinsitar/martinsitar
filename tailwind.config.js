@@ -11,11 +11,15 @@ module.exports = {
             }
         },
         height: {
-            '450px': '650px',
+            '650px': '650px',
         },
         borderRadius: {
             '4xl': '2rem',
           },
+        colors: {
+          'dark-bg': '#0B0B0F',
+          'bodycopy-grey': '#868F97',
+        },
     }
 },
   plugins: [

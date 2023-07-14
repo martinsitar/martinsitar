@@ -1,11 +1,12 @@
 {{ define "main" }}
-<div class="w-full bg-neutral-100 lg:py-64 lg:pb-48 py-36 pb-20 feature dark:bg-[#0B0B0F]">
+<div class="w-full bg-neutral-100 lg:py-64 lg:pb-48 py-36 pb-20 feature dark:bg-dark-bg">
     <div class="max-w-screen-md mx-5 md:mx-auto text-center lg:text-left">
           <h1 class="tracking-tight font-extrabold text-6xl">
             <span class="block xl:inline text-gray-900 dark:text-zinc-100">Hi, I'm Martin</span>
           </h1>
           <p class="mt-5 text-base text-gray-500 text-lg sm:mx-auto md:text-lg lg:mx-0 dark:text-gray-400">
-            I’m a product designer focused on helping brands grow their businesses on <a href="https://www.faire.com" target="_blank" class="text-blue-600 visited:text-purple-600">Faire</a>. This blog is where I share my thoughts on design, my favourite products, and my personal experiences. I also run <a href="https://heypatterns.com" target="_blank" class="text-blue-600 visited:text-purple-600">heypatterns</a>, a collection of interesting ux and interaction design patterns.
+            I’m a product designer currently focused on helping brands grow their businesses on <a href=https://www.faire.com target=_blank class="text-blue-600 visited:text-blue-600">Faire</a>. This blog is where I occasionaly write about design, travel, and projects I'm exploring. 
+            <br/><br/>Instagram: <a href="https://www.instagram.com/martinsitar1/?hl=en" target=_blank class="text-blue-600 visited:text-blue-600">@martinsitar1</a>
           </p>
     </div>
 </div>
@@ -14,7 +15,7 @@
     <div class="mx-5">
           {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
             <a href="{{ .Page.RelPermalink }}">
-              <div class="rounded-xl bg-cover bg-center mb-16 mt-16 relative h-450px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
+              <div class="rounded-xl bg-cover bg-center mb-16 mt-16 relative h-650px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
                 <!--{{ if .Params.image }}
                 <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full lg:{{ .Site.Params.post.thumbnail_width }} lg:{{ .Site.Params.post.thumbnail_height }}" src="{{ .Params.image | relURL }}" />
                 {{ else }}
@@ -31,7 +32,11 @@
             </div>
             </a>
           {{ end }}
-  
+      <!--
+      <div class="mb-16 rounded-xl"> 
+        <iframe src="https://martinsitar.substack.com/embed" width="100%" height="320" style="border:0px solid #EEE; border-radius:0.75rem; background:white;" frameborder="0" scrolling="no"></iframe>
+      </div>
+      -->
       <div class="">
           {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
           <a href="{{.RelPermalink}}">

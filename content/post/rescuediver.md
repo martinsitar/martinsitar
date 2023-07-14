@@ -8,7 +8,7 @@ thumbnail: "img/rescuediver/rd-thumb.png"
 archives: ["2020/04"]
 description: My experience of the PADI Rescue Diver in-water training.
 math: true
-featured: true
+featured: false
 ---
 
 I got my Open Water SCUBA certification when I was 15 years old. Since then I’ve been lucky to have many opportunities to dive, and slowly taken additional courses. This past fall I completed my PADI Rescue Diver certification. It was the most fun and rewarding SCUBA course I’ve taken so far.
