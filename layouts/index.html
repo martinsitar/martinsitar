@@ -1,49 +1,101 @@
 {{ define "main" }}
-<div class="w-full bg-neutral-100 lg:py-64 lg:pb-48 py-36 pb-20 feature dark:bg-dark-bg">
+<div class="w-full bg-neutral-100 lg:py-64 lg:pb-20 py-36 pb-20 feature dark:bg-dark-bg">
     <div class="max-w-screen-md mx-5 md:mx-auto text-center lg:text-left">
-          <h1 class="tracking-tight font-extrabold text-6xl">
-            <span class="block xl:inline text-gray-900 dark:text-zinc-100">Hi, I'm Martin</span>
-          </h1>
-          <p class="mt-5 text-base text-gray-500 text-lg sm:mx-auto md:text-lg lg:mx-0 dark:text-gray-400">
-            I’m a product designer currently focused on helping brands grow their businesses on <a href=https://www.faire.com target=_blank class="text-blue-600 visited:text-blue-600">Faire</a>. This blog is where I occasionaly write about design, travel, and projects I'm exploring. 
-            <br/><br/>Instagram: <a href="https://www.instagram.com/martinsitar1/?hl=en" target=_blank class="text-blue-600 visited:text-blue-600">@martinsitar1</a>
-          </p>
+      <h1 class="tracking-tight font-extrabold text-6xl">
+        <span class="block xl:inline text-gray-900 dark:text-zinc-100">Hi, I'm Martin</span>
+      </h1>
+      <p class="mt-5 text-base text-gray-500 text-lg sm:mx-auto md:text-lg lg:mx-0 dark:text-gray-400">
+        I’m a product designer currently focused on helping wholesalers grow their businesses on <a href=https://www.faire.com target=_blank class="text-blue-600 visited:text-blue-600">Faire</a>. I send out a bi-weekly-ish <a href=https://martinsitar.substack.com target=_blank class="text-blue-600 visited:text-blue-600">newsletter</a> where I share my thoughts on design & technology.
+        <br/><br/>Latest post: <a href="https://martinsitar.substack.com/p/pictograms-are-worth-a-thousand-words" target=_blank class="text-blue-600 visited:text-blue-600">A pictogram is worth a thousand words.</a>
+      </p>
     </div>
 </div>
 
-<div class="w-auto md:max-w-screen-lg md:mx-auto mt-4">
-    <div class="mx-5">
-          {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
-            <a href="{{ .Page.RelPermalink }}">
-              <div class="rounded-xl bg-cover bg-center mb-16 mt-16 relative h-650px homecard hover:shadow-xl" style="background-image: url('{{ .Params.image | relURL }}')">
-                <!--{{ if .Params.image }}
-                <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full lg:{{ .Site.Params.post.thumbnail_width }} lg:{{ .Site.Params.post.thumbnail_height }}" src="{{ .Params.image | relURL }}" />
-                {{ else }}
-                <img alt="thumbnail" id="thumb" class="rounded-lg bottom-0 left-0 w-full" src="{{ "/img/default.jpg" | relURL }}">
-                {{ end }}-->
-                <!--<div class="flex justify-center">-->
-                <div class="prose bottom-0 left-0 p-12 absolute homecard-copy">
-                    <h1>{{.Title}}</h1>
-                        <p class="opacity-70">
-                            <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-                        </p>
-                </div>
-              <!--</div>-->
-            </div>
-            </a>
-          {{ end }}
-      <!--
-      <div class="mb-16 rounded-xl"> 
-        <iframe src="https://martinsitar.substack.com/embed" width="100%" height="320" style="border:0px solid #EEE; border-radius:0.75rem; background:white;" frameborder="0" scrolling="no"></iframe>
-      </div>
-      -->
-      <div class="">
-          {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "!=" true) }}
-          <a href="{{.RelPermalink}}">
-            {{ .Render "summary" }}
-          </a>
-          {{ end }}
-      </div>
+<div class="w-full md:max-w-screen-md md:mx-auto prose dark:prose-dark" id="content">
+  <div class="max-w-screen-md mx-5 md:mx-auto lg:text-left">
+    <div class="workcard-copy text-lg">
+      <h2 class="text-3xl dark:text-white">
+        Past work
+      </h2>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Paid Placement
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Faire - 2023</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Product Taxonomy
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2021/22</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Shopify Audiences
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2021</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        HeyPatterns
+      </h2>
+      <p class="text-base pt-2 text-gray-500 ">Personal - 2021/22</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        <a href="https://www.shopify.ca/blog/live-view" target="_blank" class="px-2 py-1 ">Liveview</a>
+      </h2>
+      <p class="text-base pt-2 text-gray-500 ">Shopify - 2021</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Business Overview Dashboard
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2020</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        UX Details
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Personal - 2020</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        <a href="https://www.shopify.ca/plus" target="_blank" class="px-2 py-1">Shopify Plus Navigation</a>
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2019</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Sales tax configuration
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2019</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Centralized Commerce Objects
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2018</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        <a href="https://apps.shopify.com/launchpad" target="_blank" class="px-2 py-1">Launchpad</a>
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Shopify - 2017</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        Shush - Baby sleep app
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Personal - 2015</p>
+    </div>
+    <div class="workcard-copy text-lg">
+      <h2 class="text-2xl dark:text-white">
+        <a href="https://www.shopify.ca/blog/live-view" target="_blank" class="px-2 py-1">Results Driver</a>
+      </h2>
+      <p class="text-base pt-2 text-gray-500">Achievers - 2014</p>
     </div>
   </div>
+</div>
 {{ end }}
