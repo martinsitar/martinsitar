@@ -1,11 +1,13 @@
-p {
-  font-family: 'Open Sans';
-  letter-spacing: 0.04rem;
+body {
+  font-family: 'Inconsolata';
 }
 
-h1 {
-  font-family: 'Source Serif Pro';
-  font-weight: 600;
+p {
+  font-family: 'Inconsolata';
+}
+
+.titles  {
+  font-family: 'Open Sans';
 }
 
 .content {
@@ -60,31 +62,6 @@ h1 {
   margin-bottom: 0em;
   margin-top: 0rem;
   letter-spacing: 0.01rem;
-}
-
-.feature h1 {
-  font-family: 'Source Serif Pro';
-  font-weight: 600;
-}
-
-.workcard-copy a {
-  margin-left: 0;
-  border-radius: 4px;
-  background-color: #4770ff;
-  -webkit-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-  color: #fff;
-  text-decoration: none;
-}
-
-.workcard-copy h2 {
-  font-family: 'Source Serif Pro';
-  font-weight: 700;
-  margin-bottom: 0em;
-}
-
-.workcard-copy a:hover {
-  background-color: #243039;
 }
 
 .title h1 {
@@ -193,6 +170,8 @@ h1 {
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
+
+
 
 .homecard {
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
